@@ -1,6 +1,7 @@
  var express = require('express');
  var app = express();
  var path = require('path');
+ var port = process.env.PORT || 4000;
 
  // set the public folder to serve public assets
  app.use(express.static(__dirname + '/public'));
@@ -11,5 +12,5 @@
  });
 
  // start the server on port 8080 (http://localhost:8080)
- app.listen(4000);
+ app.listen(port);
  console.log('It has begun');
