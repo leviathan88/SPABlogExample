@@ -1,0 +1,25 @@
+{
+  "name": "singlepageapplicationblog",
+  "version": "1.0.0",
+  "description": "Fully responsive SPA Blog made with Angular and Skeleton",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leviathan88/SPABlogExample.git"
+  },
+  "keywords": [
+    "keyme"
+  ],
+  "author": "elvis dedic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leviathan88/SPABlogExample/issues"
+  },
+  "homepage": "https://github.com/leviathan88/SPABlogExample#readme"
+}
